@@ -102,7 +102,25 @@
                            <a class="nav-link" href="trangchu.html">Trang chủ</a>
                           </li>
                           <li class="nav-item">
-                           <a class="nav-link" href="#">Sản phẩm </a>
+                          	<div id="mySidenav" class="sidenav">
+							  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+							  <a href="#">Trà</a>
+							  <a href="#">Cà phê</a>
+							  <a href="#">Sinh Tố</a>
+							</div>
+							<span style="font-size:30px;cursor:pointer" onclick="openNav()">
+                           		<a class="nav-link" href="#">Sản phẩm </a>
+                           	</span>
+
+							<script>
+							function openNav() {
+							  document.getElementById("mySidenav").style.width = "250px";
+							}
+
+							function closeNav() {
+							  document.getElementById("mySidenav").style.width = "0";
+							}
+							</script>
                           </li>
                           <li class="nav-item">
                            <a class="nav-link" href="#">Địa chỉ</a>
@@ -120,54 +138,7 @@
 				</div>
 			 </div>
 		</div>
-    <section class="page-section">
-        <div class="container">
-          <div class="product-item">
-            <div class="product-item-title d-flex">
-              <div class="bg-faded p-5 d-flex ml-auto rounded">
-                <h2 class="section-heading mb-0">
-                  <span class="section-heading-upper">Blended to Perfection</span>
-                  <span class="section-heading-lower">Coffees &amp; Teas</span>
-                </h2>
-              </div>
-            </div>
-            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="css/Modest_coffee_photo/products-01.jpg" alt="">
-            <div class="product-item-description d-flex mr-auto">
-              <div class="bg-faded p-5 rounded">
-                <p class="mb-0">Đối với chúng tôi, những người sống và làm việc với cà phê mỗi ngày, Cà phê ngon lại đến từ sự chính xác và tỉ mỉ qua những câu chuyện kỳ diệu From Farm to Cup. Một nguồn nguyên liệu ngon và chất lượng, những mùa vụ thành công tới quy trình sơ chế tỉ mỉ và đúng kỹ thuật và đặc biệt nhất là quá trình rang cà phê giúp "khơi dậy" những hương vị sẵn có trong hạt. Trong bài viết này chúng ta hãy cùng khám phá xem những hương vị đó là gì nhé.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-</div>
-
-<div class="hinhnen">
-<div class="sanpham clearfix">
-    <div class="hinh-chu">
-        <div class="chu left-0 text-center bg-faded p-5 rounded">
-            <span class="subheading">Khám Phá</span>
-            <h2 class="">Menu</h2>
-            <p>Với Menu đa dạng, được chế biến 1 cách công phu và tỉ mỉ của những bartender lành nghề sẽ đem lại những ly cà phê có chất lượng tốt nhất. Khiến cho quý khách hàng có thể hưởng thụ 1 cách tốt nhất.</p>
-        </div>
-        <div class="hinh">
-          <div class="hinh-1">
-             <img src="css/Modest_coffee_photo/menu-1.jpg">
-          </div>
-          <div class="hinh-2">
-             <img src="css/Modest_coffee_photo/menu-2.jpg">
-          </div>
-          <div class="hinh-3">
-              <img src="css/Modest_coffee_photo/menu-3.jpg" alt="">
-          </div>
-          <div class="hinh-4">
-              <img src="css/Modest_coffee_photo/menu-4.jpg" alt="">
-          </div>
-        </div>
-    </div>
-</div>
-</div>
-
-<div class="besthinhnen">
+		<div class="besthinhnen">
 <div class="bestseller">
     <div class="gioithieu text-center bg-faded p-5 rounded">
         <span class="subheading">Best Seller</span>
@@ -204,7 +175,151 @@
         </div>
     </div>
 </div>
+<div class="hinhnen">
+<div class="sanpham clearfix">
+    <div class="hinh-chu">
+        <div class="chu left-0 text-center bg-faded p-5 rounded">
+            <span class="subheading">Khám Phá</span>
+            <h2 class="">Menu</h2>
+            <p>Với Menu đa dạng, được chế biến 1 cách công phu và tỉ mỉ của những bartender lành nghề sẽ đem lại những ly cà phê có chất lượng tốt nhất. Khiến cho quý khách hàng có thể hưởng thụ 1 cách tốt nhất.</p>
+        </div>
+        <div class="hinh">
+          <div class="hinh-1">
+             <img src="css/Modest_coffee_photo/menu-1.jpg">
+          </div>
+          <div class="hinh-2">
+             <img src="css/Modest_coffee_photo/menu-2.jpg">
+          </div>
+          <div class="hinh-3">
+              <img src="css/Modest_coffee_photo/menu-3.jpg" alt="">
+          </div>
+          <div class="hinh-4">
+              <img src="css/Modest_coffee_photo/menu-4.jpg" alt="">
+          </div>
+        </div>
+    </div>
 </div>
+</div>
+<div class="hinhnen">
+<div class="bestproduct">
+    <div class="gioithieu text-center bg-faded p-5 rounded">
+        <span class="subheading">Sản phẩm</span>
+    </div>
+    <div class="hinhmonan">
+        <div class="hinh1">
+            <a href="#"><img src="css/Modest_coffee_photo/drink-9.jpg" alt=""></a>
+            <div class="mota1">
+                <p>Cappucino</p>
+				<p>60.000VND</p>
+            </div>
+        </div>
+        <div class="hinh2">
+            <a href="#"><img src="css/Modest_coffee_photo/drink-7.jpg" alt=""></a>
+            <div class="mota2">
+                <p>Mojito Cuba</p>
+				<p>80.000VND</p>
+            </div>
+        </div>
+        <div class="hinh3">
+            <a href="#"><img src="css/Modest_coffee_photo/drink-13.jpg" alt=""></a>
+            <div class="mota3">
+                <p>Bạc Xỉu</p>
+				<p>45.000VND</p>
+            </div>
+        </div>
+        <div class="hinh4">
+            <a href="#"><img src="css/Modest_coffee_photo/drink-12.jpg" alt=""></a>
+            <div class="mota4">
+                <p>Sinh Tố Việt Quất</p>
+				<p>70.000VND</p>
+            </div>
+        </div>
+    </div>
+    <div class="hinhmonan">
+        <div class="hinh2">
+            <a href="#"><img src="css/Modest_coffee_photo/drink-8.jpg" alt=""></a>
+            <div class="mota2">
+                <p>Trà Đào</p>
+				<p>45.000VND</p>
+            </div>
+        </div>
+        <div class="hinh2">
+            <a href="#"><img src="css/Modest_coffee_photo/drink-10.jpg" alt=""></a>
+            <div class="mota2">
+                <p>Sinh Tố Dâu</p>
+				<p>60.000VND</p>
+            </div>
+        </div>
+        <div class="hinh3">
+            <a href="#"><img src="css/Modest_coffee_photo/drink-11.jpg" alt=""></a>
+            <div class="mota3">
+                <p>Sinh Tố Bơ</p>
+				<p>65.000VND</p>
+            </div>
+        </div>
+        <div class="hinh4">
+            <a href="#"><img src="css/Modest_coffee_photo/menu-3.jpg" alt=""></a>
+            <div class="mota4">
+                <p>Arabica Coffee</p>
+				<p>40.000VND</p>
+            </div>
+        </div>
+    </div>
+    <div class="hinhmonan">
+        <div class="hinh1">
+            <a href="#"><img src="css/Modest_coffee_photo/menu-2.jpg" alt=""></a>
+            <div class="mota1">
+                <p>Burned Milk Tea</p>
+				<p>50.000VND</p>
+            </div>
+        </div>
+        <div class="hinh2">
+            <a href="#"><img src="css/Modest_coffee_photo/drink-14.jpg" alt=""></a>
+            <div class="mota2">
+                <p>Cà Phê Kem</p>
+				<p>65.000VND</p>
+            </div>
+        </div>
+        <div class="hinh3">
+            <a href="#"><img src="css/Modest_coffee_photo/drink-5.jpg" alt=""></a>
+            <div class="mota3">
+                <p>The Hermit Ram 2019</p>
+				<p>85.000VND</p>
+            </div>
+        </div>
+        <div class="hinh4">
+            <a href="#"><img src="css/Modest_coffee_photo/drink-15.jpg" alt=""></a>
+            <div class="mota4">
+                <p>Trà Lipton (Đá/Không Đá)</p>
+				<p>35.000VND</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    <section class="page-section">
+        <div class="container">
+          <div class="product-item">
+            <div class="product-item-title d-flex">
+              <div class="bg-faded p-5 d-flex ml-auto rounded">
+                <h2 class="section-heading mb-0">
+                  <span class="section-heading-upper">Blended to Perfection</span>
+                  <span class="section-heading-lower">Coffees &amp; Teas</span>
+                </h2>
+              </div>
+            </div>
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="css/Modest_coffee_photo/products-01.jpg" alt="">
+            <div class="product-item-description d-flex mr-auto">
+              <div class="bg-faded p-5 rounded">
+                <p class="mb-0">Đối với chúng tôi, những người sống và làm việc với cà phê mỗi ngày, Cà phê ngon lại đến từ sự chính xác và tỉ mỉ qua những câu chuyện kỳ diệu From Farm to Cup. Một nguồn nguyên liệu ngon và chất lượng, những mùa vụ thành công tới quy trình sơ chế tỉ mỉ và đúng kỹ thuật và đặc biệt nhất là quá trình rang cà phê giúp "khơi dậy" những hương vị sẵn có trong hạt. Trong bài viết này chúng ta hãy cùng khám phá xem những hương vị đó là gì nhé.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+
+
      </div>
 	<footer>
        <ul>
